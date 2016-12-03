@@ -70,7 +70,9 @@ git blame <filename> -w
 
 #### Remove all local branches removed in remote
 ```sh
-git fetch origin --prune
+git fetch <remote> --prune
+
+# Example: git fetch origin --prune
 ```
 
 #### Remove untracked local files
